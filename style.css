@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Itim", cursive;
+}
+
+hr{
+    width: 500px;
+    border: 1px solid black;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrados { 
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.quadrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    font-family: "Itim", cursive;
+    font-size: 6rem
+}
+
+.quadrado:hover{
+    cursor: pointer;
+    background-color: rgb(240, 251, 255);
+}
+
+.linha{
+    width: 10px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+}
